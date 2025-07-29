@@ -37,7 +37,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body suppressHydrationWarning={true}>
         <main className="max-w-6xl mx-auto px-6 my-8">{children}</main>
         <ScrollRestoration />
         <Scripts />
