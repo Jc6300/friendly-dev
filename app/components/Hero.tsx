@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 
 const Hero = ({
-  name = "Josh",
+  name = "[]",
   text = " I build friendly web experiences and help others become confident, modern developers.",
 }) => {
   return (
