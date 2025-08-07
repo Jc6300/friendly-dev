@@ -10,12 +10,14 @@ export type Project = {
   featured: boolean;
 };
 
-export type PostMeta = {
+export type Post = {
   id: string;
   slug: string;
+  body: string;
   title: string;
   excerpt: string;
   date: string;
+  image: string;
 };
 
 export type StrapiResponse<T> = {
@@ -40,4 +42,22 @@ export type StrapiProject = {
   date: string;
   category: string;
   featured: boolean;
+};
+export type StrapiPost = {
+  id: string;
+  documentId: string;
+  title: string;
+  slug: string;
+  excerpt: string;
+  date: string;
+  body: string;
+  image?: {
+    url: string;
+    formats?: {
+      thumbnail?: { url: string };
+      small?: { url: string };
+      medium?: { url: string };
+      large?: { url: string };
+    };
+  };
 };
