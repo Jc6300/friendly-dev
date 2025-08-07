@@ -13,9 +13,8 @@ const AboutPage = () => {
             Hey, I'm Josh 👋🏼
           </h1>
           <p className="text-gray-300 text-lg">
-            I'm a passionate web developer and content creator who loves
-            building friendly digital experiences and helping others grow into
-            confident, modern developers.
+            I'm a passionate web developer who loves building friendly digital
+            experiences and helping others build amazing projects.
           </p>
         </div>
       </div>
@@ -26,9 +25,8 @@ const AboutPage = () => {
         <p className="text-gray-300 leading-relaxed">
           After turning my life around, I made it my mission to share what I’ve
           learned with others — not just about code, but about building a life
-          you’re proud of. Through tutorials, courses, and real-world projects,
-          I aim to make development accessible, friendly, and something you look
-          forward to each day.
+          you’re proud of.I aim to make development accessible, friendly, and
+          something you look forward to each day.
         </p>
       </div>
 
